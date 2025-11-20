@@ -76,10 +76,10 @@ serde_norway = "0.9.42"
 serde_bytes = "0.11.16"
 toml_edit = { version = "0.22.24", features = ["serde"] }
 
-[profile.release]
-lto = true
-codegen-units = 1
-strip = true
+# [profile.release]
+# lto = true
+# codegen-units = 1
+# strip = true
 
 [[bench]]
 name = "serde"
